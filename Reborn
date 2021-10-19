@@ -2076,7 +2076,7 @@ do -- Example UI
 			["y"] = 100,
 			["source"] = "Lua",
 		})
-		Console:Set("-- Gamer time!\nfor i = 1, 9 do \n    print(i)\nend")
+		Console:Set("")
 		print(Console:Get())
 
 		local HA = Tab:AddHorizontalAlignment()
