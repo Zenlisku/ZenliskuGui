@@ -2098,15 +2098,15 @@ do -- Example UI
 	library:FormatWindows()
 end
 
-local Window = library:AddWindow("Bunny X", {
+local Window = library:AddWindow("Zenlisku Gui", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
     can_resize = true,
 })
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/farthefarter/e/main/e"))()
-local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenlisku/Silent-Aim/main/lol"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenlisku/Slider/main/W"))()
 ESP:Toggle(false)
 ESP.Tracers = false
 ESP.Names = false
@@ -2154,7 +2154,7 @@ end
 local bindableFunction= Instance.new("BindableFunction")
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Bunny X";
+    Title = "Zenlisku Gui";
     Text = "Welcome";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
@@ -2258,7 +2258,7 @@ folder2:AddButton("School Roof", function(bool)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
 
-CreditTAB:AddButton("Scripted by Zenlisku", function(bool)
+CreditTAB:AddButton("Scripted by Zenlisku | Helped By KimHasArrived", function(bool)
     setclipboard("avi.#2103")
     wait(1)
     local function callback(text)
@@ -2272,8 +2272,8 @@ CreditTAB:AddButton("Scripted by Zenlisku", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Hii ^^";
-        Text = "Discord Link Copied On Clipboard";
+        Title = "Hii ^_^";
+        Text = "Enjoy the script";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
@@ -2281,8 +2281,8 @@ CreditTAB:AddButton("Scripted by Zenlisku", function(bool)
     })
 end)
 
-CreditTAB:AddButton("TwiZzy is best scripter", function(bool)
-    setclipboard("Bunny X")
+CreditTAB:AddButton("Zenlisku is the best scripter", function(bool)
+    setclipboard("Zenlisku Gui")
     wait(1)
     local function callback(text)
         if text == "Yes" then
@@ -2295,8 +2295,8 @@ CreditTAB:AddButton("TwiZzy is best scripter", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Bunny X";
-        Text = "Discord Link Copied On Clipboard";
+        Title = "Zenlisku Gui";
+        Text = "Kim and Zen W";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
@@ -2305,7 +2305,7 @@ CreditTAB:AddButton("TwiZzy is best scripter", function(bool)
 end)
 
 RCTab:AddButton("Speed Kaias (LeftShift)", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MainNeg/Sources/main/Speed"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenlisku/Speed/main/Kim-Zen"))()
 end)
 
 RCTab:AddLabel("Enable/Disable with T// n, m to change Speed")
